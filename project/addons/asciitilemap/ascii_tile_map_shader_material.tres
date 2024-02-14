@@ -1,0 +1,17 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://cxtoj6v0tk40s"]
+
+[ext_resource type="Shader" path="res://addons/asciitilemap/ascii_tile_map.gdshader" id="1_xgn8a"]
+[ext_resource type="Texture2D" uid="uid://cc27vtpntpsew" path="res://demo/polyducks_12x12.png" id="2_jk2sr"]
+
+[resource]
+shader = ExtResource("1_xgn8a")
+shader_parameter/render_type = 3
+shader_parameter/glyph_size = Vector2i(0, 0)
+shader_parameter/tileset_ids = PackedInt32Array()
+shader_parameter/fg_single_color = Vector4(1, 0, 1, 1)
+shader_parameter/bg_single_color = Vector4(0, 0, 0, 1)
+shader_parameter/fg_palette_ids = null
+shader_parameter/bg_palette_ids = null
+shader_parameter/fg_colors = PackedInt32Array()
+shader_parameter/bg_colors = PackedInt32Array()
+shader_parameter/tileset = ExtResource("2_jk2sr")

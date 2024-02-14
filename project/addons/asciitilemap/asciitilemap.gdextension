@@ -1,0 +1,21 @@
+[configuration]
+
+entry_symbol = "asciitilemap_init"
+reloadable = true
+compatibility_minimum = 4.2
+
+[libraries]
+
+macos.debug = "bin/libasciitilemap.macos.debug.framework"
+macos.release = "bin/libasciitilemap.macos.release.framework"
+windows.debug.x86_64 = "bin/libasciitilemap.windows.debug.x86_64.dll"
+windows.release.x86_64 = "bin/libasciitilemap.windows.release.x86_64.dll"
+linux.debug.x86_64 = "bin/libasciitilemap.linux.debug.x86_64.so"
+linux.release.x86_64 = "bin/libasciitilemap.linux.release.x86_64.so"
+linux.debug.arm64 = "bin/libasciitilemap.linux.debug.arm64.so"
+linux.release.arm64 = "bin/libasciitilemap.linux.release.arm64.so"
+linux.debug.rv64 = "bin/libasciitilemap.linux.debug.rv64.so"
+linux.release.rv64 = "bin/libasciitilemap.linux.release.rv64.so"
+
+[icons]
+AsciiTileMap = "ASCIITileMapIcon.png"

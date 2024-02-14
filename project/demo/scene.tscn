@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7u64tpv6byvb"]
+
+[ext_resource type="Script" path="res://demo/scene.gd" id="1_w61wi"]
+
+[node name="Scene" type="Node"]
+script = ExtResource("1_w61wi")
+
+[node name="AsciiTileMap" type="AsciiTileMap" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2(200, 0)
+anchor_mode = 0
